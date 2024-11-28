@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    position: relative;
+    margin: 5px 0;
+}
+
+.menu-link {
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu-link:hover {
+    background-color: #45a049;
+}
+
+.submenu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+}
+
+.submenu .menu-link {
+    background-color: #66BB6A;
+}
+
+.submenu .menu-link:hover {
+    background-color: #5AAE5F;
+}
+
+.submenu .submenu {
+    margin-left: 20px;
+}
